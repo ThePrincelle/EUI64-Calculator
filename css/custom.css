@@ -1,3 +1,27 @@
 .container {
     margin-top: 20px;
 }
+
+.inputs {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.row, .form-control, .container.btn {
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+footer a {
+    margin: 10px;
+}
+
+footer > .container {
+    margin-top: 0px;
+}

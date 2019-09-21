@@ -20,10 +20,39 @@
     <div class="container">
 
         <h1>EUI-64 Calculator</h1>
-        
 
+        <p>Allows you to get the HOST IP from the Mac address.
+        <br>Main objective : Get the IPv6 EUI 64 address. </p>
 
+        <div class="inputs">
+            <div class="row">
+                <div class="col-sm">
+                    <input type="text" class="form-control" placeholder="Mac Address (xx-xx-xx-xx-xx-xx)" id="mac" aria-label="mac" aria-describedby="inputGroup-sizing-lg">
+                    <input type="text" class="form-control" placeholder="Start of IPv6 address (xxxx:xxxx:xxxx:xxxx)" id="ip-start" aria-label="mac" aria-describedby="mac-addr">
+                    
+                    <button type="button" class="btn btn-primary" onclick="mactoeui()">Get IP</button>
 
+                    <br/><br/>
+                    
+                    <input type="text" class="form-control" readonly placeholder="End of IPv6 address" id="ip" aria-label="mac" aria-describedby="mac-addr">
+
+                    <br>
+
+                    <input type="text" class="form-control" readonly placeholder="Full IPv6 address" id="ip-full" aria-label="mac" aria-describedby="mac-addr">
+                </div>
+                <div class="col-sm"></div>
+            </div>
+
+        </div>
     </div>
+
+    <footer class="footer-bottom">
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <a class="btn-secondary btn-sm" target="_blank" href="https://github.com/ThePrinceMax/Ubertone-Test">Git</a>
+                <a class="btn-secondary btn-sm" target="_blank" href="https://princelle.org">Maxime Princelle</a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
