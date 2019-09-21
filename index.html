@@ -27,18 +27,23 @@
         <div class="inputs">
             <div class="row">
                 <div class="col-sm">
-                    <input type="text" class="form-control" placeholder="Mac Address (xx-xx-xx-xx-xx-xx)" id="mac" aria-label="mac" aria-describedby="inputGroup-sizing-lg">
-                    <input type="text" class="form-control" placeholder="Start of IPv6 address (xxxx:xxxx:xxxx:xxxx)" id="ip-start" aria-label="mac" aria-describedby="mac-addr">
+                    <label for="mac">Mac address</label>
+                    <input type="text" class="form-control" placeholder="xx-xx-xx-xx-xx-xx" id="mac" aria-label="mac">
+
+                    <label for="ip-start">Start of IPv6 address</label>
+                    <input type="text" class="form-control" placeholder="xxxx:xxxx:xxxx:xxxx" id="ip-start" aria-label="mac">
                     
-                    <button type="button" class="btn btn-primary" onclick="mactoeui()">Get IP</button>
+                    <button type="button" class="btn btn-primary" onclick="mactoeui()">Go !</button>
 
                     <br/><br/>
                     
-                    <input type="text" class="form-control" readonly placeholder="End of IPv6 address" id="ip" aria-label="mac" aria-describedby="mac-addr">
+                    <label for="ip">End of IPv6 address</label>
+                    <input type="text" class="form-control" readonly placeholder="" id="ip" aria-label="mac">
 
                     <br>
 
-                    <input type="text" class="form-control" readonly placeholder="Full IPv6 address" id="ip-full" aria-label="mac" aria-describedby="mac-addr">
+                    <label for="ip-full">Full IPv6 address</label>
+                    <input type="text" class="form-control" readonly placeholder="" id="ip-full" aria-label="mac">
                 </div>
                 <div class="col-sm"></div>
             </div>
