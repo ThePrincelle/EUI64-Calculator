@@ -4,3 +4,4 @@ RewriteRule ^(.*)$ https://eui64-calc.princelle.org/$1 [R=301,L]
 
 Header set Access-Control-Allow-Origin "*"
 
+ErrorDocument 404 /404.html
